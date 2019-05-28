@@ -1,0 +1,7 @@
+El archivo RUN.bat es para ejecutar el compilador, antes debes haber hecho estos pasos.
+
+1.- Debes instalar Python y ponerlo como variable de entorno en la maquina donde se va a ejecutar el compilador.
+2.- Debes instalar DevC++ o CodeBlocks para poder usar la carpeta de "MinGW", por ejemplo -> C:\Program Files\codeblock\MinGW
+3.- Descomprimir el archivo ply.zip en la carpeta de python, por ejemplo -> C:\python27\Lib\ply
+4.- Necesitamos un archivo de g++ que deberá estar en la carpeta MinGW de los programas mencionados anteriormente, poner esa carpeta como variable de entorno, para comprobar que funciono, en el cmd deberemos escribir "g++ -v" y nos deberá indicar la version del g++
+5.- Ahora si ya podemos ejecutar el RUN.bat
